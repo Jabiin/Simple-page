@@ -1,0 +1,40 @@
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    li{
+        display: inline-block;
+        text-decoration: none;
+        padding-right: 2rem;
+        font-size: 1.5rem;
+        font-weight: 700;
+        font-family: 'Roboto', sans-serif;
+        color: #fff;
+    }
+}
+.logo{
+        padding-left: 2rem;
+        font-size: 3rem;
+        font-family: 'Leckerli One', cursive;
+        color: #fff;
+}
+
+.body_container{
+    display: flex;
+    height: 95vh;
+}
+img{
+    mix-blend-mode: multiply;
+    height: 94.5vh;
+}
+.text{
+     align-self: center;
+     justify-self: start;
+    font-size: 20rem;
+    background-image: url(https://images.pexels.com/photos/210205/pexels-photo-210205.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-clip: text;
+    color: transparent;
+    line-height: 10rem;
+    font-family: 'Roboto', sans-serif;
+}
